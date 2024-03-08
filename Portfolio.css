@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 1% 1%;
+}
+p {
+    color: white;
+    background-color: navy;
+    font-size: larger;
+    padding: 2% 2%;
+}
+body {
+    background-color: rgb(165, 165, 165);
+}
+nav li a {
+    display: block;
+    color: white;
+    text-decoration:wavy;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 1%;
+}
+nav li {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 1%;
+    background-color: navy
+}
+.middle {
+    text-align: center;
+}
+img {
+    padding-top: 20px;
+}
+p {
+    font-size: 20px;
+}
+ul li {
+    display: inline-block; 
+    background: navy;
+    font: 20px ;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+ul li a {
+    color: white;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+  }
+  .column img {
+    width: 45%; 
+    text-align: center;
+  }
+  .sizing {
+    max-width: 600px;
+    max-height: 400px;
+    padding-top: 20px;
+  }
